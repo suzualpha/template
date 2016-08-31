@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.suzualpha.templateapk"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <receiver android:name=".NotificationReceiver" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityLifeCycle"
+            android:label="@string/title_activity_powermanager" >
+        </activity>
+        <activity
+            android:name=".Web"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name=".NotificationCompat_Builder"
+            android:label="@string/title_activity_notification_compat__builder" >
+        </activity>
+        <activity
+            android:name=".IntentActivity"
+            android:label="@string/title_activity_intent" >
+        </activity>
+        <activity
+            android:name=".FaceBookLink"
+            android:label="@string/title_activity_face_book" >
+        </activity>
+        <activity
+            android:name=".DateFormatActivity"
+            android:label="@string/title_activity_date_format" >
+        </activity>
+        <activity
+            android:name=".HashEncodeActivity"
+            android:label="@string/title_activity_hash_encode" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".PacageManeger"
+            android:label="@string/title_activity_pacage_maneger" >
+        </activity>
+        <activity
+            android:name=".DeviceInfo"
+            android:label="@string/title_activity_device_info" >
+        </activity>
+        <activity
+            android:name=".ImeiToHash"
+            android:label="@string/title_activity_imei_to_hash" >
+        </activity>
+        <activity
+            android:name=".TouchPoint"
+            android:label="@string/title_activity_touch_point" >
+        </activity>
+        <activity
+            android:name=".ActivityAnimation"
+            android:label="@string/title_activity_animation" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.animation.LayoutAnimation1"
+            android:label="@string/title_activity_layout_animation1" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.animation.LayoutAnimation2"
+            android:label="@string/title_activity_layout_animation2" >
+        </activity>
+        <activity
+            android:name=".VideoPlayActivity"
+            android:label="@string/title_activity_a" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.media.CameraInfoActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity android:name="com.suzualpha.media.MediaRecorderTest" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.media.ContentProviderActivity"
+            android:label="@string/title_activity_content_provider" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.tab.TabHostActivity"
+            android:label="@string/title_activity_tab_host" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.fragment.FragmentActivityTest"
+            android:theme="@style/NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.fragment.Fragment1"
+            android:label="@string/title_activity_fragment1" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.fragment.Fragment2"
+            android:label="@string/title_activity_fragment2" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.fragment.Fragment3"
+            android:label="@string/title_activity_fragment3" >
+        </activity>
+        <activity android:name="com.suzualpha.mensetu.SampleB" >
+        </activity>
+        <activity android:name="com.suzualpha.mensetu.SampleC" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.ad.AdActivity"
+            android:label="@string/title_activity_ad" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.ber.FullScreenMainActivity"
+            android:theme="@style/Fullscreen" >
+			>
+        </activity>
+        <activity android:name="com.suzualpha.billing.AppActivity" >
+        </activity>
+        <activity
+            android:name="com.suzualpha.cocos.CocosPointActivity"
+            android:label="@string/title_activity_cocos_point" >
+        </activity>
+        <activity
+            android:name=".VolumeActivity"
+            android:label="@string/title_activity_volume" >
+        </activity>
+        <activity
+            android:name=".KeyEventActivity"
+            android:label="@string/title_activity_key_event" >
+        </activity>
+        <activity
+            android:name=".WebViewTextActivity"
+            android:label="@string/title_activity_web_view_text" >
+        </activity>
+        <activity
+            android:name=".NavigationbarCustum"
+            android:label="@string/title_activity_navigationbar_custum" >
+        </activity>
+        <activity
+            android:name=".SpaceToSS"
+            android:label="@string/title_activity_space_to_ss" >
+        </activity>
+    </application>
+
+</manifest>

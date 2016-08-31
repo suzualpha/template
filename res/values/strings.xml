@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TemplateAPK</string>
+
+    <!-- activity -->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web">Web</string>
+    <string name="web_useragent">UserAgent</string>
+    <string name="web_before_useragent">before_userAgent</string>
+    <string name="web_after_useragent">after_userAgent</string>
+    <string name="mobile_on">MOBILE ON</string>
+    <string name="mobile_off">MOBILE OFF</string>
+    <string name="title_activity_powermanager">PawerManager</string>
+
+    <string-array name="meinmenu_list">
+        <item>ActivityLifeCycle_and_ScreenONOFF</item>
+        <item>UserAgent</item>
+        <item>NotificationCompat_Builder</item>
+        <item>FaceBook</item>
+        <item>DateFormat</item>
+        <item>HashEncode</item>
+        <item>pacageManeger</item>
+        <item>DeviceInfo</item>
+        <item>ImeiToHash</item>
+        <item>TouchPoint</item>
+        <item>ActivityAnimation</item>
+        <item>LayoutAnimation1</item>
+        <item>LayoutAnimation2</item>
+        <item>IntentActivity</item>
+        <item>PlayVideoActivity</item>
+        <item>CameraInfoActivity</item>
+        <item>RecordeingTest</item>
+        <item>ContentProviderActivity</item>
+        <item>FragmentActivity</item>
+        <item>AdActivity</item>
+        <item>FullScreenMainActivity</item>
+        <item>AppActivity</item>
+        <item>ValumeActivity</item>
+        <item>KeyEventActivity</item>
+        <item>WebViewTextActivity</item>
+        <item>NavigationbarCustum</item>
+        <item>SpaceToSS</item>
+    </string-array>
+    <string-array name="web_useragent_spinner_list">
+        <item>ISW11F</item>
+        <item>ISW11F_delMobile</item>
+        <item>ISW11F_DeviceChange_NEXUS5</item>
+        <item>NEXUS5</item>
+        <item>NEXUS5_DeviceChange</item>
+        <item>NEXUS7_2012wifi</item>
+        <item>NEXUS7_2012wifi_DeviceChange</item>
+    </string-array>
+    <string-array name="locations">
+        <item>Menu</item>
+        <item>HOME</item>
+        <item>お知らせ</item>
+        <item>ユーザー検索</item>
+        <item>チャット一覧</item>
+        <item>Myプロフィール</item>
+        <item>一言メッセージ</item>
+    </string-array>
+
+    <string name="title_activity_notification_compat__builder">NotificationCompat_Builder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_face_book">FaceBook</string>
+    <string name="title_activity_date_format">DateFormat</string>
+    <string name="title_activity_hash_encode">HashEncodeActivity</string>
+    <string name="title_activity_animation">ActivityAnimation</string>
+
+    <!-- Facebook連携 -->
+    <string name="app_id">1437736226462466</string>
+    <string name="title_activity_pacage_maneger">PacageManeger</string>
+    <string name="title_activity_device_info">DeviceInfo</string>
+    <string name="title_activity_imei_to_hash">ImeiToHash</string>
+    <string name="title_activity_touch_point">TouchPoint</string>
+    <string name="title_activity_layout_animation1">LayoutAnimation1</string>
+    <string name="title_activity_layout_animation2">LayoutAnimation2</string>
+    <string name="title_activity_a">MainActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_content_provider">ContentProviderActivity</string>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_activity_fragment1">Fragment1</string>
+    <string name="title_activity_fragment2">Fragment2</string>
+    <string name="title_activity_fragment3">Fragment3</string>
+    <string name="title_activity_ad">AdActivity</string>
+    <string name="title_activity_full_screen_main">FullScreenMainActivity</string>
+    <string name="title_activity_cocos_point">CocosPointActivity</string>
+    <string name="title_activity_volume">VolumeActivity</string>
+    <string name="title_activity_key_event">KeyEventActivity</string>
+    <string name="title_activity_web_view_text">WebViewTextActivity</string>
+    <string name="title_activity_navigationbar_custum">NavigationbarCustum</string>
+    <string name="title_activity_space_to_ss">SpaceToSS</string>
+
+</resources>

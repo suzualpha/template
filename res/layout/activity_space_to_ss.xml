@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.suzualpha.templateapk.SpaceToSS" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/spaceText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="空き容量" />
+
+        <TextView
+            android:id="@+id/spaceText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ファイル保存名" />
+
+        <EditText
+            android:id="@+id/spaceFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/spaceText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存容量 MB" />
+
+        <EditText
+            android:id="@+id/spaceText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/spaceBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnSSsave"
+            android:text="実行ボタン" />
+
+    </LinearLayout>
+
+</RelativeLayout>

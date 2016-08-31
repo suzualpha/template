@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DateFormat_root_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".DateFormatActivity" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dataformat_menu1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="right|center_horizontal"
+            android:gravity="right|center_vertical"
+            android:maxLines="1"
+            android:text="UNIXタイムスタンプ："
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_menu12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:maxLines="1"
+            android:text="dd/MMM/yyyy hh:mm:ss a:"
+            android:textSize="@dimen/text_size_micro" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dataformat_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="left|center_horizontal"
+            android:gravity="left|center_vertical"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+
+        <TextView
+            android:id="@+id/dataformat_answer13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/text_size_micro" />
+    </LinearLayout>
+
+</LinearLayout>

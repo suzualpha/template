@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="stationview_stationnamesize">40dp</dimen>
+    <dimen name="stationview_train_colorline_height">10dp</dimen>
+    <dimen name="stationview_buttons_margin_horizontal">30dp</dimen>
+    <dimen name="stationview_station_name_plate_width">200dp</dimen>
+    <dimen name="stationview_surfaceheight">100dp</dimen>
+    <dimen name="button_padding_vertical">5dp</dimen>
+    <dimen name="stationview_horizontal_partition_height">2dp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_mini">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_huge">26sp</dimen>
+    <!-- 7inch Tablet -->
+    <dimen name="text_size_micro_7inch">16sp</dimen>
+    <dimen name="text_size_small_7inch">19sp</dimen>
+    <dimen name="text_size_mini_7inch">22sp</dimen>
+    <dimen name="text_size_medium_7inch">25sp</dimen>
+    <dimen name="text_size_large_7inch">31sp</dimen>
+    <dimen name="text_size_huge_7inch">36sp</dimen>
+    <!-- etc -->
+    <dimen name="ListMarginWidth">10sp</dimen>
+    <dimen name="ListMarginHeight">20sp</dimen><dimen name="buttonpaneMarginVertical">10dp</dimen>
+
+</resources>

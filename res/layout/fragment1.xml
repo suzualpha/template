@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detaconvart_btn"
+    tools:context="com.suzualpha.templateapk.Fragment1"
+    tools:ignore="MergeRootFrame" >
+
+    <WebView
+        android:id="@+id/fragment1_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+

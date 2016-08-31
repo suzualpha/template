@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_animation2_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gold"
+    tools:context="com.suzualpha.animation.LayoutAnimation2"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/layout_animation2_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" >
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/layout_animation2_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="center"
+        android:src="@drawable/testimage" />
+
+</RelativeLayout>
+
